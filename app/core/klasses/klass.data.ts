@@ -30,7 +30,7 @@ export const KLASSES : Klass[] =[
     {
         // perk: double apts until level 10
         name: 'Peasant',
-        aptitudes: uniformSkillMap(.5),
+        aptitudes: uniformSkillMap(1000.5),
         img: 'ruffian.png',
         hint: "??? You shouldn't be reading this...",
         criteria: (s: IStatsService) => true
